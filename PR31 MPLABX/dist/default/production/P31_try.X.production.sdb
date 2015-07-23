@@ -1,0 +1,498 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\abdiv.c
+[v ___abdiv `(c  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\abmod.c
+[v ___abmod `(c  1 e 1 0 ]
+"34 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\abtoft.c
+[v ___abtoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\altoft.c
+[v ___altoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\atdiv.c
+[v ___atdiv `(m  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\atmod.c
+[v ___atmod `(m  1 e 3 0 ]
+"38 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\attoft.c
+[v ___attoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\awtoft.c
+[v ___awtoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\bmul.c
+[v ___bmul `(uc  1 e 1 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\float.c
+[v ___ftpack `(f  1 e 3 0 ]
+"87 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\ftadd.c
+[v ___ftadd `(f  1 e 3 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\ftdiv.c
+[v ___ftdiv `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\ftge.c
+[v ___ftge `(b  1 e 0 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\ftmul.c
+[v ___ftmul `(f  1 e 3 0 ]
+"16 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\ftneg.c
+[v ___ftneg `(f  1 e 3 0 ]
+"17 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\ftsub.c
+[v ___ftsub `(f  1 e 3 0 ]
+"45 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\fttol.c
+[v ___fttol `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lbdiv.c
+[v ___lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lbmod.c
+[v ___lbmod `(uc  1 e 1 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lbtoft.c
+[v ___lbtoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lldiv.c
+[v ___lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\llmod.c
+[v ___llmod `(ul  1 e 4 0 ]
+"36 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lltoft.c
+[v ___lltoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\ltdiv.c
+[v ___ltdiv `(um  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\ltmod.c
+[v ___ltmod `(um  1 e 3 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lttoft.c
+[v ___lttoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+"29 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lwtoft.c
+[v ___lwtoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\tmul.c
+[v ___tmul `(um  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+"7 eeprom.c
+[v _eecpymem `(v  1 e 0 0 ]
+"25
+[v _memcpyee `(v  1 e 0 0 ]
+"49
+[v ___eetoc `(uc  1 e 1 0 ]
+"57
+[v ___eetoi `(ui  1 e 2 0 ]
+"65
+[v ___eetom `(um  1 e 3 0 ]
+"73
+[v ___eetol `(ul  1 e 4 0 ]
+"81
+[v ___ctoee `(uc  1 e 1 0 ]
+"88
+[v ___itoee `(ui  1 e 2 0 ]
+"95
+[v ___mtoee `(um  1 e 3 0 ]
+"102
+[v ___ltoee `(ul  1 e 4 0 ]
+"109
+[v ___eetoft `(f  1 e 3 0 ]
+"117
+[v ___eetofl `(d  1 e 3 0 ]
+"125
+[v ___fttoee `(f  1 e 3 0 ]
+"132
+[v ___fltoee `(d  1 e 3 0 ]
+"7 eeread.c
+[v _eeprom_read `(uc  1 e 1 0 ]
+"39 i2c_ar1000.c
+[v _ar_i2c_initialize `(v  1 e 0 0 ]
+"83
+[v _ar_i2c_read `(ui  1 e 2 0 ]
+"220
+[v _ar_i2c_write `(v  1 e 0 0 ]
+"116 PR31_final.c
+[v _main `(i  1 e 2 0 ]
+"192
+[v _switch_channel `(v  1 e 0 0 ]
+"209
+[v _adjust_channel `(v  1 e 0 0 ]
+"279
+[v _decrease_chan `(v  1 e 0 0 ]
+"292
+[v _increase_chan `(v  1 e 0 0 ]
+"305
+[v _send_dec `(v  1 e 0 0 ]
+"327
+[v _set_vol `(v  1 e 0 0 ]
+"344
+[v _adjust_vol `(v  1 e 0 0 ]
+"394
+[v _ar1000_init `(v  1 e 0 0 ]
+"416
+[v _setAR1000 `(v  1 e 0 0 ]
+"462
+[v _delay `(v  1 e 0 0 ]
+"467
+[v _send_config `(v  1 e 0 0 ]
+"474
+[v _send_char `(v  1 e 0 0 ]
+"481
+[v _e_pulse `(v  1 e 0 0 ]
+"488
+[v _lcd_goto `(v  1 e 0 0 ]
+"500
+[v _lcd_clr `(v  1 e 0 0 ]
+"506
+[v _send_string `(v  1 e 0 0 ]
+"516
+[v _uart_init `(v  1 e 0 0 ]
+"528
+[v _uart_tx `(v  1 e 0 0 ]
+"534
+[v _uart_rc `(uc  1 e 1 0 ]
+"545
+[v _uart_sendstr `(v  1 e 0 0 ]
+"561
+[v _eprom_read `(ui  1 e 2 0 ]
+"573
+[v _eprom_write `(v  1 e 0 0 ]
+"1001 /Volumes/build/bamboo/xml-data/build-dir/XC-V10-JOB1/nz/build/dist/osx/include/pic16f877a.h
+[v _EECON1 `VEuc  1 e 1 @396 ]
+"1046
+[v _CARRY `VEb  1 e 0 @24 ]
+"1092
+[v _GIE `VEb  1 e 0 @95 ]
+"167 C:\Program Files (x86)\Microchip\xc8\v1.00\include\pic16f877a.h
+[v _PORTA `VEuc  1 e 1 @5 ]
+"184
+[v _PORTB `VEuc  1 e 1 @6 ]
+"222
+[v _PORTD `VEuc  1 e 1 @8 ]
+"405
+[v _SSPBUF `VEuc  1 e 1 @19 ]
+"506
+[v _TXREG `VEuc  1 e 1 @25 ]
+"515
+[v _RCREG `VEuc  1 e 1 @26 ]
+"633
+[v _TRISA `VEuc  1 e 1 @133 ]
+"650
+[v _TRISB `VEuc  1 e 1 @134 ]
+"688
+[v _TRISD `VEuc  1 e 1 @136 ]
+"794
+[v _SSPADD `VEuc  1 e 1 @147 ]
+"891
+[v _SPBRG `VEuc  1 e 1 @153 ]
+"965
+[v _EEDATA `VEuc  1 e 1 @268 ]
+"974
+[v _EEADR `VEuc  1 e 1 @269 ]
+"1015
+[v _EECON2 `VEuc  1 e 1 @397 ]
+"1027
+[v _ACKDT `VEb  1 e 0 @1165 ]
+"1028
+[v _ACKEN `VEb  1 e 0 @1164 ]
+"1029
+[v _ACKSTAT `VEb  1 e 0 @1166 ]
+"1040
+[v _BF `VEb  1 e 0 @1184 ]
+"1041
+[v _BRGH `VEb  1 e 0 @1218 ]
+"1074
+[v _CREN `VEb  1 e 0 @196 ]
+"1089
+[v _EEPGD `VEb  1 e 0 @3175 ]
+"1107
+[v _OERR `VEb  1 e 0 @193 ]
+"1113
+[v _PEN `VEb  1 e 0 @1162 ]
+"1127
+[v _RB0 `VEb  1 e 0 @48 ]
+"1128
+[v _RB1 `VEb  1 e 0 @49 ]
+"1129
+[v _RB2 `VEb  1 e 0 @50 ]
+"1130
+[v _RB3 `VEb  1 e 0 @51 ]
+"1131
+[v _RB4 `VEb  1 e 0 @52 ]
+"1132
+[v _RB5 `VEb  1 e 0 @53 ]
+"1148
+[v _RCEN `VEb  1 e 0 @1163 ]
+"1150
+[v _RCIF `VEb  1 e 0 @101 ]
+"1151
+[v _RD `VEb  1 e 0 @3168 ]
+"1166
+[v _RSEN `VEb  1 e 0 @1161 ]
+"1169
+[v _R_W `VEb  1 e 0 @1186 ]
+"1171
+[v _SEN `VEb  1 e 0 @1160 ]
+"1173
+[v _SPEN `VEb  1 e 0 @199 ]
+"1175
+[v _SSPEN `VEb  1 e 0 @165 ]
+"1178
+[v _SSPM0 `VEb  1 e 0 @160 ]
+"1179
+[v _SSPM1 `VEb  1 e 0 @161 ]
+"1180
+[v _SSPM2 `VEb  1 e 0 @162 ]
+"1181
+[v _SSPM3 `VEb  1 e 0 @163 ]
+"1182
+[v _SSPOV `VEb  1 e 0 @166 ]
+"1225
+[v _TRISC3 `VEb  1 e 0 @1083 ]
+"1226
+[v _TRISC4 `VEb  1 e 0 @1084 ]
+"1228
+[v _TRISC6 `VEb  1 e 0 @1086 ]
+"1229
+[v _TRISC7 `VEb  1 e 0 @1087 ]
+"1246
+[v _TXEN `VEb  1 e 0 @1221 ]
+"1248
+[v _TXIF `VEb  1 e 0 @100 ]
+"1250
+[v _WCOL `VEb  1 e 0 @167 ]
+"1251
+[v _WR `VEb  1 e 0 @3169 ]
+"1252
+[v _WREN `VEb  1 e 0 @3170 ]
+"55 PR31_final.c
+[v _m `uc  1 e 1 0 ]
+[v _vol `uc  1 e 1 0 ]
+[v _i `uc  1 e 1 0 ]
+"56
+[v _prog_chan `[7]uc  1 e 7 0 ]
+"57
+[v _currentChannel `ul  1 e 4 0 ]
+[v _freq_kHz `ul  1 e 4 0 ]
+"58
+[v _STC `ui  1 e 2 0 ]
+"59
+[v _register_values `[18]ui  1 e 36 0 ]
+"81
+[v _v2 `[10]uc  1 e 10 0 ]
+"83
+[v _v1 `[10]uc  1 e 10 0 ]
+"116
+[v _main `(i  1 e 2 0 ]
+{
+"183
+} 0
+"39 i2c_ar1000.c
+[v _ar_i2c_initialize `(v  1 e 0 0 ]
+{
+"64
+} 0
+"516 PR31_final.c
+[v _uart_init `(v  1 e 0 0 ]
+{
+"525
+} 0
+"394
+[v _ar1000_init `(v  1 e 0 0 ]
+{
+"398
+[v ar1000_init@i `i  1 a 2 13 ]
+"413
+} 0
+"7 eeread.c
+[v _eeprom_read `(uc  1 e 1 0 ]
+{
+[v eeprom_read@addr `uc  1 a 1 wreg ]
+[v eeprom_read@addr `uc  1 a 1 wreg ]
+"12
+} 0
+"209 PR31_final.c
+[v _adjust_channel `(v  1 e 0 0 ]
+{
+"241
+[v adjust_channel@press_215 `ui  1 a 2 38 ]
+"228
+[v adjust_channel@press_214 `ui  1 a 2 36 ]
+"214
+[v adjust_channel@press `ui  1 a 2 34 ]
+"276
+} 0
+"573
+[v _eprom_write `(v  1 e 0 0 ]
+{
+[v eprom_write@channel_adr `uc  1 a 1 wreg ]
+[v eprom_write@channel_adr `uc  1 a 1 wreg ]
+[v eprom_write@fm_value `ui  1 p 2 0 ]
+"584
+} 0
+"192
+[v _switch_channel `(v  1 e 0 0 ]
+{
+"205
+} 0
+"500
+[v _lcd_clr `(v  1 e 0 0 ]
+{
+"504
+} 0
+"344
+[v _adjust_vol `(v  1 e 0 0 ]
+{
+[v adjust_vol@vol_default `uc  1 a 1 6 ]
+[v adjust_vol@check `uc  1 a 1 5 ]
+"388
+} 0
+"327
+[v _set_vol `(v  1 e 0 0 ]
+{
+[v set_vol@key `uc  1 a 1 wreg ]
+[v set_vol@key `uc  1 a 1 wreg ]
+"341
+} 0
+"561
+[v _eprom_read `(ui  1 e 2 0 ]
+{
+[v eprom_read@channel_adr `uc  1 a 1 wreg ]
+"562
+[v eprom_read@fm_value `ui  1 a 2 2 ]
+"561
+[v eprom_read@channel_adr `uc  1 a 1 wreg ]
+"570
+} 0
+"279
+[v _decrease_chan `(v  1 e 0 0 ]
+{
+"289
+} 0
+"292
+[v _increase_chan `(v  1 e 0 0 ]
+{
+"302
+} 0
+"416
+[v _setAR1000 `(v  1 e 0 0 ]
+{
+[v setAR1000@freq_kHz `ui  1 p 2 9 ]
+"456
+} 0
+"83 i2c_ar1000.c
+[v _ar_i2c_read `(ui  1 e 2 0 ]
+{
+[v ar_i2c_read@ar_slave_address `uc  1 a 1 wreg ]
+"148
+[v ar_i2c_read@count `ul  1 a 4 5 ]
+"86
+[v ar_i2c_read@ar_received_byte `ui  1 a 2 0 ]
+"85
+[v ar_i2c_read@ar_received_byte2 `uc  1 a 1 3 ]
+[v ar_i2c_read@ar_received_byte1 `uc  1 a 1 2 ]
+"83
+[v ar_i2c_read@ar_slave_address `uc  1 a 1 wreg ]
+[v ar_i2c_read@ar_register `uc  1 p 1 0 ]
+"201
+} 0
+"220
+[v _ar_i2c_write `(v  1 e 0 0 ]
+{
+[v ar_i2c_write@ar_slave_address `uc  1 a 1 wreg ]
+"223
+[v ar_i2c_write@ar_transmit_byte2 `uc  1 a 1 12 ]
+[v ar_i2c_write@ar_transmit_byte1 `uc  1 a 1 11 ]
+"220
+[v ar_i2c_write@ar_slave_address `uc  1 a 1 wreg ]
+[v ar_i2c_write@ar_register `uc  1 p 1 0 ]
+[v ar_i2c_write@ar_data `ul  1 p 4 1 ]
+"296
+} 0
+"305 PR31_final.c
+[v _send_dec `(v  1 e 0 0 ]
+{
+[v send_dec@no `[5]ul  1 a 20 8 ]
+"307
+[v send_dec@i `us  1 a 2 28 ]
+"305
+[v send_dec@RC4 `ul  1 p 4 0 ]
+"324
+} 0
+"506
+[v _send_string `(v  1 e 0 0 ]
+{
+[v send_string@s `*.cDCCuc  1 a 1 wreg ]
+"507
+[v send_string@i `uc  1 a 1 10 ]
+"506
+[v send_string@s `*.cDCCuc  1 a 1 wreg ]
+"509
+} 0
+"488
+[v _lcd_goto `(v  1 e 0 0 ]
+{
+[v lcd_goto@RC4 `uc  1 a 1 wreg ]
+[v lcd_goto@RC4 `uc  1 a 1 wreg ]
+"498
+} 0
+"467
+[v _send_config `(v  1 e 0 0 ]
+{
+[v send_config@RC4 `uc  1 a 1 wreg ]
+[v send_config@RC4 `uc  1 a 1 wreg ]
+"472
+} 0
+"545
+[v _uart_sendstr `(v  1 e 0 0 ]
+{
+[v uart_sendstr@s `*.cDCCuc  1 a 1 wreg ]
+[v uart_sendstr@s `*.cDCCuc  1 a 1 wreg ]
+"555
+} 0
+"528
+[v _uart_tx `(v  1 e 0 0 ]
+{
+[v uart_tx@uc_data `uc  1 a 1 wreg ]
+[v uart_tx@uc_data `uc  1 a 1 wreg ]
+"531
+} 0
+"474
+[v _send_char `(v  1 e 0 0 ]
+{
+[v send_char@RC4 `uc  1 a 1 wreg ]
+[v send_char@RC4 `uc  1 a 1 wreg ]
+"479
+} 0
+"481
+[v _e_pulse `(v  1 e 0 0 ]
+{
+"486
+} 0
+"462
+[v _delay `(v  1 e 0 0 ]
+{
+[v delay@RC4 `ul  1 p 4 0 ]
+"464
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\llmod.c
+[v ___llmod `(ul  1 e 4 0 ]
+{
+"6
+[v ___llmod@counter `uc  1 a 1 9 ]
+"5
+[v ___llmod@divisor `ul  1 p 4 0 ]
+[v ___llmod@dividend `ul  1 p 4 4 ]
+"21
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.00\sources\lldiv.c
+[v ___lldiv `(ul  1 e 4 0 ]
+{
+"6
+[v ___lldiv@quotient `ul  1 a 4 9 ]
+"7
+[v ___lldiv@counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend `ul  1 p 4 4 ]
+"26
+} 0
